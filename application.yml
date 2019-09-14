@@ -1,0 +1,14 @@
+﻿spring:
+  profiles: 9527
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-atsea-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-atsea-test
