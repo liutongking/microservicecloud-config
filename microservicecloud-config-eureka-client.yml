@@ -1,6 +1,6 @@
 spring:
-  profiles:
-  active:
+  profiles: 
+  active: 
   - dev
 
 ---
@@ -20,7 +20,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
-
 
 ---
 server:
