@@ -1,6 +1,6 @@
 ﻿spring:
   profiles: 9527
-    active:
+    active: 
     - dev
 ---
 spring:
